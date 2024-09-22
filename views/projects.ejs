@@ -1,0 +1,77 @@
+<!-- 
+This page will show all my project currently working or developed and if possible their github repository link -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <%- include('includes/head') %>
+        <title>Document</title>
+        <link rel="stylesheet" href="/css/project.css">
+</head>
+
+<body>
+    <%- include('includes/headers') %>
+        <div class="container">
+
+            <h2>Skills</h2>
+            <ul id="list">
+                <li>
+                    <div class="progress-bar">
+                        <label for="skills">Python</label>
+                        <progress id='skills' value="70" max="100"></progress>
+                    </div>
+                </li>
+                <li>
+                    <div class="progress-bar">
+                        <label for="skills">JavaScript</label>
+                        <progress id="skills" value="60" max="100">60</progress>
+
+                    </div>
+                </li>
+                <li>
+
+                    <div class="progress-bar">
+                        <label for="skills">HTML & CSS</label>
+                        <progress id="skills" value="85" max="100">85</progress>
+
+                    </div>
+                </li>
+                <li>
+
+                    <div class="progress-bar">
+                        <label for="skills">Java</label>
+                        <progress id="skills" value="80" max="100">80</progress>
+                    </div>
+                </li>
+                <li>
+
+                    <div class="progress-bar">
+                        <label for="skills">C#</label>
+                        <progress id="skills" value="50" max="100">50</progress>
+                    </div>
+                </li>
+                <!-- Add more skills here -->
+            </ul>
+        </div>
+        </div>
+        <div class="projects-list">
+            <h2>Projects</h2>
+            <ul id="project-list">
+                <!-- This will be populated dynamically with your projects -->
+            </ul>
+        </div>
+        <div class="project-filter">
+            <h2>Filter Projects</h2>
+            <button id="ml-projects">Machine Learning</button>
+            <button id="web-projects">Web Development</button>
+            <button id="research-projects">Research Work</button>
+        </div>
+
+        <script>
+            // Add JavaScript code here to populate the project list and handle filter button clicks
+        </script>
+</body>
+
+</html>
