@@ -1,0 +1,67 @@
+/* Monochromatic (Single Color with Shades)
+
+Example: Shades of blue or gray for a clean, consistent look.
+Pros: Elegant, professional, and minimalistic.
+Example:
+Primary: Dark Blue (#1D3557)
+Accent: Light Blue (#457B9D)
+Background: White (#F1FAEE)
+*/
+
+/*
+Analogous (Colors Next to Each Other on the Color Wheel)
+
+Example: Blue + Green for a tech-forward yet calming feel.
+Example:
+Primary: Navy Blue (#0A1172)
+Accent: Sea Green (#17A398)
+Background: White (#FAFAFA)
+*/
+
+/*
+Red : e63946
+light green: f1faee
+light blue: a8dadc
+blue: 457b9d
+dark blue: 1d3557
+*/
+
+header {
+    background: #457B9D;
+    accent-color: #1d3557;
+    color: #fff;
+    /* padding: 10px 0; */
+    display: flex;
+    justify-content: flex-end;
+    align-items: end;
+    padding: 1rem 3.75rem;
+    position: sticky;
+    width: 100%;
+    top: 0;
+    left: 0;
+    box-sizing: border-box;
+}
+
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out;
+}
+
+nav ul li a:hover {
+    color: black;
+    
+}
